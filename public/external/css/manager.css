@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+        .manager-game {
+            background-color: #171717;
+            width: 750px;
+            align-items: center;
+            height: 550px;
+            display: flex;
+            border-radius: 8px;
+            position: fixed;
+            top: 50%;
+            flex-direction: column;
+            font-family: 'Open Sans', sans-serif;
+            color: white;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        .manager-game h1 {
+            font-size: 25px;
+            font-weight: lighter;
+        }
+
+
+        #topbar {
+            display: flex;
+            flex-direction: row;
+            width: 95%;
+        }
+
+        #topbar button {
+            width: 50px;
+            margin-top: 5px;
+            margin-left: auto;
+            border: none;
+            border-radius: 250px;
+            height: 50px;
+            color: white;
+            background-color: #292929;
+        }
+
+        #secondbar {
+            width: 97%;
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            gap: 5px;
+        }
+
+        .a-custom-button {
+            width: 109px;
+            border: none;
+            background-color: #313131;
+            color: white;
+            border-radius: 8px;
+            height: 30px;
+        }
+
+        #app-holder {
+            width: 95%;
+            border: none;
+            margin-top: 5px;
+            height: 435px;
+            background-color: #161616;
+            display:flex;
+            flex-wrap:wrap;
+            justify-content:center;
+            gap: 5px;
+            flex-direction:row;
+            padding: 0;
+            overflow-y: scroll;
+        }
+
+        .manage-app-div {
+            width: 140px;
+            border-radius: 6px;
+            height: 140px;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #282828;
+        }
+
+        .manage-app-img {
+            border-radius: 8px;
+            margin-top: 5px;
+            width: 85px;
+            height: 85px;
+        }

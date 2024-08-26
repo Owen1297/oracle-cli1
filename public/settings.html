@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<head>
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="external/css/manager.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+        body {
+            color: white;
+            margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+
+nav {
+    gap: 3px;
+    margin-top: 3px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.jiggle {
+    height: 45px;
+    background-color: #171717;
+    width: 45px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jiggle:hover {
+    width: 90px;
+}
+
+.jiggle img {
+    width: 25px;
+    height: 25px;
+}
+
+.proxydiv {
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 605px;
+    border-radius: 15px;
+    background-color: #171717;
+    height: 150px;
+}
+
+.search-engine {
+    margin-top: 15px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 550px;
+    border-radius: 15px;
+    background-color: #171717;
+    height: 150px;
+}
+
+.setting-engine {
+    margin-top: 15px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    border-radius: 15px;
+    background-color: #171717;
+    height: 150px;
+}
+
+.proxydiv img {
+    width: 135px;
+    border-radius: 8px;
+    height: 135px;
+    -webkit-user-drag: none;
+    background-color: #232323;
+}
+
+.dropdown {
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #232323;
+    color: white;
+    border-radius: 8px;
+    transition: opacity 0.3s ease;
+}
+
+.dropdown option {
+    transition: opacity 0.3s ease;   
+}
+
+.fav-icon-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.fav-icon-dropdown select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: url('arrow.png') no-repeat right; /* Example image for dropdown arrow */
+  padding: 8px 32px 8px 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Style for options */
+.fav-icon-dropdown option {
+  padding: 8px;
+  background-size: 24px 24px; /* Adjust based on your image size */
+  background-repeat: no-repeat;
+  background-position: left center;
+}
+
+.tab-c {
+    display: flex;
+    flex-direction: row;
+    height: 45px;
+}
+
+.tab-c input {
+    border: none;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    background-color: #3b3b3b;
+    color: white;
+}
+
+.tab-c button {
+    color: white;
+    background-color: rgb(71, 194, 71);
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: none;
+}
+
+.custom-game-manager {
+    background-color: #3b3b3b;
+    border: none;
+    height: 25px;
+    width: 150px;
+    color: white;
+    border-radius: 8px;
+}
+</style>
+</head>
+<body>
+    <nav>
+        <div class="jiggle" onclick="window.location.href='main.html'">
+            <img src="external/img/search.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='j.html'">
+            <img src="external/img/games.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='a.html'">
+            <img src="external/img/apps (1).png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='buenos.html'">
+            <img src="external/img/GPT.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='settings.html'">
+            <img src="external/img/gear-cog.png">
+        </div>
+    </nav>
+    <h1>Settings</h1>
+    <div class="proxydiv" id="hoxys">
+        <img src="./external/img/Ultraviolet.png" id="uv">
+        <img src="./external/img/dynamic.png" id="dn">
+        <img src="./external/img/rh.png" id="rh">
+        <img src="./external/img/nodejs.png" id="nodeunblocker">
+    </div>
+
+    <div class="search-engine">
+        <p>Search Engine</p>
+        <select id="engine" class="dropdown" name="dropdown">
+            <option value="google">Google</option>
+            <option value="bing">Bing</option>
+            <option value="duckduck-go">Duck Duck Go</option>
+            <option value="https://www.ecosia.org/search?method=index&q=%s">ecosia</option>
+            <option value="https://oceanhero.today/web?q=%s">Ocean Hero</option>
+            <option value="https://yandex.com/search/?text=%s">Yandex</option>
+            <option value="https://www.qwant.com/?l=en&q=%s">Qwant</option>
+            <option value="https://search.brave.com/search?q=%s">Brave</option>
+            <option value="https://www.startpage.com/sp/search?q=%s">Startpage</option>
+            <option value="https://www.dogpile.com/serp?q=%s">dogpile</option>
+          </select>
+    </div>
+
+    <div class="setting-engine" style="width: 400px; display: none; flex-direction: column; align-items: center; height: 200px;">
+        <p>Tab Cloaker</p>
+        <form id="tab-name" class="tab-c">
+            <input type="text" placeholder="Tab Title" id="tab-name-value">
+            <button id="tab-name-button"> Sumbit</button>
+        </form>
+        <form id="tab-ico" class="tab-c">
+            <input type="text" placeholder="Tab Title" id="tab-name-value">
+            <button id="tab-name-button"> Sumbit</button>
+        </form>
+
+    </div>
+
+    <div class="search-engine" style="align-items: center; justify-content: center; height: 350px;">
+        <p>Theme</p>
+        <select id="Theme" class="dropdown" name="dropdown">
+            <option value="dark">dark</option>
+        </select>
+    </div>
+    
+    <div class="search-engine" style="display: flex; flex-direction: column;">
+        <p>Custom Game Manager</p>
+        <button class="custom-game-manager" id="custom-game-manager" onclick="OpenManager()">Open Manager</button>
+     </div>
+     <div class="search-engine" style="display: flex; flex-direction: column;">
+        <p>SETTINGS CONFIG</p>
+        <button class="custom-game-manager" id="metro" style="width: 190px; background-color: green;
+        height: 50px;" onclick="SaveConfig()">Apply Your Settings</button>
+        <button class="custom-game-manager" id="ex-cf">EXPORT CONFIG</button>
+        <button class="custom-game-manager" id="imp-cf">IMPORT CONFIG</button>
+     </div>
+     <div class="manager-game" style="display: none;" id="manager">
+        <div id="topbar">
+            <h1>Custom JSON Manager</h1>
+            <button id="X">X</button>
+        </div>
+        <div id="secondbar">
+            <button class="a-custom-button" id="newapp">New App</button>
+            <button class="a-custom-button" id="delete">Delete App</button>
+            <button class="a-custom-button" id="modify">Modify App</button>
+            <button class="a-custom-button" id="importconfig">Import Config</button>
+            <button class="a-custom-button" id="clear">Clear Apps</button>
+            <button class="a-custom-button" id="exportconfig">Export Config</button>
+        </div>
+        <div id="app-holder"></div>
+    </div>
+   <script src="external/js/sp.js"></script>
+   <script src="external/js/bindex.js"></script>
+   <script src="external/js/custom-gamemanager.js"></script>
+</body>
+</html>

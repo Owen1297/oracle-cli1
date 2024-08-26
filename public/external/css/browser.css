@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #0b0b0b;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.safari-bar {
+  font-family: "Montserrat", sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  background-color: #131313;
+  width: 100%;
+  height: 50px;
+}
+
+.sidemenu {
+  width: 3%;
+  margin-left: 15px;
+  height: 100%;
+}
+
+.ico {
+  transition: color 0.3s ease-in-out;
+  margin-left: 15px;
+  border: none;
+  width: 50px;
+  height: 100%;
+  background-color: transparent;
+  color: #3e3e3e;
+}
+
+.safari-url {
+  text-align: center;
+  border-radius: 15px;
+  color: white;
+  width: 100vh;
+  background-color: #242323;
+  border: none;
+  height: 60%;
+}
+
+iframe {
+  border: none;
+  width: 100vw;
+  height: calc(100vh - 50px);
+}
+
+.tab_management {
+  color: white;
+}
+
+.tab {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  align-items: center;
+  flex-direction: column;
+  height: 150px;
+  width: 250px;
+  border-radius: 15px;
+  background-color: #212121;
+}
+
+.tab button {
+  color: white;
+  width: 120px;
+  border-radius: 8px;
+  height: 35px;
+  border: none;
+  font-family: "Montserrat", sans-serif;
+  background-color: #3a3a3a;
+}
+
+.tab h1 {
+  background-color: #393939;
+  color: white;
+  width: 100%;
+  margin-top: -2px;
+  font-size: x-large;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  text-align: center;
+}
+
+.tab img {
+  width: 60px;
+  height: 60px;
+}
+
+.tab_holder {
+  display: none;
+  position: fixed;
+  top: 50%;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  height: 80%;
+  background-color: rgb(27, 27, 27);
+  z-index: 999;
+  border-radius: 15px;
+}
+
+.ico:hover {
+  color: #a6a6a6;
+}
+
+.quick-access {
+  background-color: rgb(39, 39, 39);
+  z-index: 120;
+  position: fixed;
+  display: none;
+  flex-direction: column;
+  width: 430px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  transition: margin 0.5s ease;
+}
+
+.TopAccess {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  height: 50px;
+}
+
+.TopAccess h1 {
+  color: white;
+  font-size: 25px;
+  margin-left: 15px;
+  width: 130px;
+  text-align: center;
+}
+
+.return_btn {
+  margin-left: 55%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  border: none;
+  border-radius: 7px;
+  background-color: #666666;
+  color: white;
+  height: 40px;
+  display: flex;
+}
+
+::-webkit-scrollbar {
+  width: 2px;
+}
+
+::-webkit-scrollbar-track {
+ background:#202020;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #5e5e5e;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #c9c9c9; 
+}
+
+.quick-apps {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  overflow-x: auto;
+  gap: 15px;
+}
+
+.app_dividend {
+  width: 90px;
+  height: 90px;
+  border-radius: 8px;
+}
+
+.NINEOFYA {
+  color: white;
+  font-size: 25px;
+  margin-left: 15px;
+  text-align: center;
+}
+
+.BrowserOptionSideDiv {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 370px;
+  overflow-y: auto;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.BrowserOptionButton {
+  border: none;
+  background-color: #383838;
+  border-radius: 8px;
+  width: 90%;
+  height: 50px;
+  color: white;
+  display: flex; 
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: large;
+}
+
+.BrowserOptionButton span {
+  font-size: inherit;
+  margin-right: 8px;
+}

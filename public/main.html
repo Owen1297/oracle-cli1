@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<head>
+
+    <style>
+        body {
+            margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+        #logo {
+            margin-top: 120px;
+            width: 345px;
+            display: flex;
+            height: 175px;
+        }
+
+        .searchbar {
+            margin-top: 15px;
+    align-items: center;
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    border-radius: 20px;
+background: #171717;
+box-shadow: 2px 4px 168.4px 43px rgba(0, 0, 0, 0.25);
+}
+
+.searchbar img {
+    margin-left: 5px;
+    width: 35px;
+    height: 35px;
+    user-select: none;
+}
+
+.searchbar input {
+    border: none;
+    color: white;
+    height: 35px;
+    background-color: transparent;
+    width: 100%;
+}
+
+nav {
+    gap: 3px;
+    margin-top: 3px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.jiggle {
+    height: 45px;
+    background-color: #171717;
+    width: 45px;
+    border-radius: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.jiggle:hover {
+    width: 90px;
+}
+
+.jiggle img {
+    width: 25px;
+    height: 25px;
+}
+    </style>
+
+</head>
+<body>
+    <nav>
+        <div class="jiggle" onclick="window.location.href='main.html'">
+            <img src="external/img/search.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='j.html'">
+            <img src="external/img/games.png" >
+        </div>
+        <div class="jiggle" onclick="window.location.href='a.html'">
+            <img src="external/img/apps (1).png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='buenos.html'">
+            <img src="external/img/GPT.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='settings.html'">
+            <img src="external/img/gear-cog.png">
+        </div>
+    </nav>
+    <img src="external/img/logo (2).png" id="logo">
+    <div class="searchbar" id="bar2"><img alt="searchEngineLogo" id="search_logo" src="external/img/g.png">
+        <input id="search_bar" type="text" placeholder="Search with Google or Type URL" onkeydown="handleKeyPress(event)" >
+   </div>
+   <script src="external/js/buscar.js"></script>
+</body>
+</html>

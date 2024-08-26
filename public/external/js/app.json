@@ -1,0 +1,260 @@
+[
+    {
+        "name": "Extension Market",
+        "url": "https://extensions.rxfe.xyz",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/extensions.png"
+    },
+    {
+        "name": "Google",
+        "url": "https://google.com",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/google.png"
+    },
+    {
+        "name": "Youtube",
+        "url": "https://youtube.com",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/YT.png"
+    },
+    {
+        "name": "Discord",
+        "url": "https://canary.discord.com/app",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/Discord.png"
+    },
+    {
+        "name": "Instagram",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.instagram.android&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/Instagram_icon.png"
+    },
+    {
+        "name": "Facebook",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.facebook.katana&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/Facebook.jpg"
+    },
+    {
+        "name": "Twitter",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.twitter.android&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/twitter.png"
+    },
+    {
+        "name": "Reddit",
+        "url": "https://reddit.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/reddit.png"
+    },
+    {
+        "name": "Twitch",
+        "url": "https://twitch.tv/",
+        "proxy": "rh",
+        "icon": "../external/img/sm-apps/twitch.png"
+    },
+    {
+        "name": "ESPN",
+        "url": "https://espn.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/espn.webp"
+    },
+    {
+        "name": "VS Code",
+        "url": "https://vscode.dev/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/vscode.png"
+    },
+    {
+        "name": "Soundcloud",
+        "url": "https://soundcloud.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/soundcloud.png"
+    },
+    {
+        "name": "GitHub",
+        "url": "https://github.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/github.png"
+    },
+    {
+        "name": "Chess",
+        "url": "https://chess.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/chess.webp"
+    },
+    {
+        "name": "Paramount",
+        "url": "https://paramountplus.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/paramount.webp"
+    },
+    {
+        "name": "Friv",
+        "url": "https://friv.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/Friv.png"
+    },
+    {
+        "name": "Poki",
+        "url": "https://poki.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/poki.png"
+    },
+    {
+        "name": "Snapchat",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.snapchat.android&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/snapchat.png"
+    },
+    {
+        "name": "TikTok",
+        "url": "https://tiktok.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/tiktok.png"
+    },
+    {
+        "name": "WhatsApp",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.whatsapp.android&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/whatsapp.webp"
+    },
+    {
+        "name": "Ruffle",
+        "url": "https://ruffle.rs/demo/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/ruffle.png"
+    },
+    {
+        "name": "Rumble",
+        "url": "https://rumble.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/rumble.png"
+    },
+    {
+        "name": "Mathway",
+        "url": "https://mathway.com/algebra",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/mathway.png"
+    },
+    {
+        "name": "Pintrest",
+        "url": "https://pinterest.com",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/pinterest.png"
+    },
+    {
+        "name": "ChatGPT - Utopia",
+        "url": "https://utopiaunblocker.com/learn.html",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/GPT.png"
+    },
+    {
+        "name": "FlixHQ",
+        "url": "https://flixhq.to",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/flixhq.webp"
+    },
+    {
+        "name": "TextNow",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.enflick.android.TextNow&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/textnow.png"
+    },
+    {
+        "name": "Chai",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.Beauchamp.Messenger.external&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/chai.webp"
+    },
+    {
+        "name": "CoolMathGames",
+        "url": "https://www.coolmathgames.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/coolmath.jpg"
+    },
+    {
+        "name": "Shuttle TV",
+        "url": "https://shuttletv.net/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/shuttle.png"
+    },
+    {
+        "name": "Netflix",
+        "url": "https://netflix.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/netflix.png"
+    },
+    {
+        "name": "Disney+",
+        "url": "https://disneyplus.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/disney.jpg"
+    },
+    {
+        "name": "Flixtor",
+        "url": "https://flixtor.to/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/flixtor.png"
+    },
+    {
+        "name": "GeForce Now",
+        "url": "https://play.geforcenow.com/mall/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/geforce.png"
+    },
+    {
+        "name": "Bing",
+        "url": "https://bing.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/bing.jpg"
+    },
+    {
+        "name": "CoPilot",
+        "url": "https://copilot.microsoft.com/",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/copilot.png"
+    },
+    {
+        "name": "Xbox Cloud Gaming",
+        "url": "https://www.xbox.com/en-us/play",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/xbox.png"
+    },
+    {
+        "name": "neal.fun",
+        "url": "https://neal.fun",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/nealfun.png"
+    },
+    {
+        "name": "Aptiode",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.aptoide.partners.nowgg.store&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/aptiode.png"
+    },
+    {
+        "name": "CharacterAI",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=ai.character.app&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/characterai.jpeg"
+    },
+    {
+        "name": "Capcut",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.lemon.lvoverseas&partner=RafeLabs",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/capcut.png"
+    },
+    {
+        "name": "Cash App",
+        "url": "https://cash.app/login",
+        "proxy": "rh",
+        "icon": "../external/img/sm-apps/cashapp.png"
+    },
+    {
+        "name": "Android",
+        "url": "https://nowgg.nl/iframe/snippet?app_pkg=com.uncube.launcher3&partner=RafeLabratory",
+        "proxy": "default",
+        "icon": "../external/img/sm-apps/android.png"
+    }
+]

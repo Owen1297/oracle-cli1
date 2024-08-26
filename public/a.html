@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="external/css/app.css">
+</head>
+<body>
+    <nav>
+        <input type="text" id="searchbar" placeholder="Search App Library">
+
+        <div class="jiggle" onclick="window.location.href='main.html'">
+            <img src="external/img/search.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='j.html'">
+            <img src="external/img/games.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='a.html'">
+            <img src="external/img/apps (1).png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='buenos.html'">
+            <img src="external/img/GPT.png">
+        </div>
+        <div class="jiggle" onclick="window.location.href='settings.html'">
+            <img src="external/img/gear-cog.png">
+        </div>
+    </nav>
+    <h1 style="color: white; font-family: sans-serif;">most apps require nowgg. in school You Must Use a hotspot for the apps to actually work.</h1>
+    <div class="BTNBAR">
+        <div class="battan" id="all">
+            <p class="maintext">All Apps</p>
+            <p class="secondary" id="count">50</p>
+        </div>
+        <div class="battan" id="recently" style="display: none;">
+            <p class="maintext">Recent</p>
+            <p class="secondary" id="recent_count">50</p>
+        </div>
+        <div class="battan" id="fav">
+            <p class="maintext">Favorites</p>
+            <p class="secondary" id="fav_count">0</p>
+        </div>
+        <div class="battan" id="custom">
+            <p class="maintext">Custom</p>
+            <p class="secondary" id="custom_count">0</p>
+        </div>
+    </div>
+
+    <div id="HOLDER_BS">
+    </div>
+    <script src="external/js/ap.js"></script>
+    <script src="external/js/custom-gamemanager-appedition.js"></script>
+</body>
+</html>

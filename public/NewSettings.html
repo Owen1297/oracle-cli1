@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<head>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+        html {
+            background-color: rgb(19, 19, 19);
+        }
+        body {
+            color: white;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(19, 19, 19);
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .logo {
+            width: 280px;
+            height: 140px;
+        }
+
+        #tooltip {
+            font-family: 'Montserrat', sans-serif;
+            color: white;
+        }
+
+        .load_tip {
+            width: 30px;
+            height: 30px;
+            margin-top: 15px;
+        }
+
+        #override {
+            width: 180px;
+            margin-top: 15px;
+            border: none;
+            border-radius: 8px;
+            color: white;
+            background-color: rgb(151, 49, 177);
+            height: 50px;
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <img src="external/img/logo (2).png" class="logo" id="logo">
+    <p id="tooltip">Checking Your Device</p>
+    <img id="loading_tip" class="load_tip" src="external/img/loads.svg">
+    <button id="override">Override Error</button>
+    <script id="function">
+
+    </script>
+</body>
+</html>
